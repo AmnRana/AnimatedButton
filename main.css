@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.main-button{
+    height: 100px;
+    width:290px;
+    background-color:blue;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.sun{
+    height:75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
