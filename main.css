@@ -2,6 +2,7 @@
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
+    transition: 1s ease-in-out;
 }
 body{
     height: 100vh;
@@ -9,21 +10,34 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background:#fff7f7;
 }
 .main-button{
+    position:relative;
+    background-color: #fff;
     height: 100px;
     width:290px;
-    background-color:blue;
     border-radius: 60px;
     display: flex;
-    align-items: center;
-
+    align-items: center;    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px ;
 }
 .sun{
+    position:absolute;
     height:75px;
     width: 75px;
-    background-color: white;
     border-radius: 50%;
-    
+    left:5%;
+    background:url('./sun.png');
+    background-position: center;
+    background-size: cover;
+}
+.aman{
+
+}
+.moon{
+    left:70%;
+    background:url('./moon.png');
+    background-position: center;
+    background-size: cover;
 }
